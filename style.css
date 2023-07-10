@@ -122,3 +122,26 @@ body {
   padding: 30px;
   color: black;
 }
+
+/* bonus optional section */
+
+.bonus_optional {
+  display: flex;
+  width: 70%;
+  padding: 40px;
+  margin: auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.icon_box {
+  width: 40%;
+  margin-left: 70px;
+  padding: 20px;
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+}
+
+.icon_img {
+  height: 50%;
+}
