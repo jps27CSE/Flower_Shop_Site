@@ -195,6 +195,10 @@ body {
 
 /* instagram section */
 
+.instagram {
+  margin-bottom: 70px;
+}
+
 .intagram_info {
   margin-top: 50px;
 }
@@ -238,6 +242,7 @@ body {
   background-position: cover;
   background-repeat: no-repeat;
   margin: auto;
+  border-radius: 5px;
 }
 
 .latest_deals_title {
@@ -266,13 +271,69 @@ body {
   width: 500px;
   height: 40px;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 5px;
   margin-left: -40px;
+  border: 0px;
 }
 
 .input_button_box button {
   margin-left: 5px;
+}
+
+/* bonus personal */
+.personal_bonus {
+  height: 500px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.personal_bonus_title {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.form_fields_parent {
+  display: block;
+  width: 70%;
+  margin: auto;
+  padding: 40px;
+}
+.form_fields {
+  width: 80%;
+  margin: auto;
+  padding-left: 250px;
+}
+
+.bonus_input {
+  width: 500px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: -40px;
+  border: 0px;
+}
+
+.bonus_text_field {
+  width: 500px;
+  margin-top: 20px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: -40px;
+  border: 0px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons input {
+  margin-right: 170px;
+  margin-top: 20px;
 }
 
 /* footer */
