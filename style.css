@@ -283,6 +283,7 @@ body {
 
 /* bonus personal */
 .personal_bonus {
+  margin-top: 70px;
   height: 500px;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
