@@ -132,6 +132,8 @@ body {
   margin: auto;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
+
+  margin-bottom: 30px;
 }
 
 .icon_box {
@@ -144,4 +146,49 @@ body {
 
 .icon_img {
   height: 50%;
+}
+
+/* deal section */
+
+.deal {
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  align-items: center;
+}
+
+.color_text {
+  color: #e55473;
+}
+
+.deal_info {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 200px 0 200px 50px;
+}
+
+.deal_title {
+  color: #272727;
+  font-size: 30px;
+  margin: auto;
+  width: 80%;
+}
+
+.deal_paragraph {
+  padding: 20px;
+  color: rgba(39, 39, 39, 0.6);
+  margin: auto;
+  width: 70%;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.deal_img {
+  width: 218px;
+  height: 320px;
+  flex-shrink: 0;
+  margin-right: 100px;
+  margin-bottom: 20px;
 }
