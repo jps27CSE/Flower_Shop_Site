@@ -274,3 +274,35 @@ body {
 .input_button_box button {
   margin-left: 5px;
 }
+
+/* footer */
+footer {
+  background: #111010;
+  height: 300px;
+  margin-top: 80px;
+}
+
+footer h3 {
+  padding-top: 90px;
+  font-size: 38px;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+}
+.footer_copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin: auto;
+  padding-top: 20px;
+}
