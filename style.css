@@ -192,3 +192,85 @@ body {
   margin-right: 100px;
   margin-bottom: 20px;
 }
+
+/* instagram section */
+
+.intagram_info {
+  margin-top: 50px;
+}
+
+.inta_title {
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+}
+
+.inta_paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  line-height: 30px;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.insta_boxs {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.insta_box img {
+  height: 290px;
+  width: 250px;
+  margin: 10px;
+}
+
+/* latest deals section */
+
+.latest_deals {
+  background: url("./assets//Rectangle\ 9.png");
+  width: 80%;
+  height: 300px;
+  background-position: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.latest_deals_title {
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  padding-top: 100px;
+}
+
+.latest_deals_paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+}
+
+.input_button_box {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.input_button_box input {
+  width: 500px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: -40px;
+}
+
+.input_button_box button {
+  margin-left: 5px;
+}
